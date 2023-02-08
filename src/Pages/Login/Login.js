@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Input from "../../Components/Input/Input";
-import styles from "./SignIn.module.scss";
+import styles from "./Login.module.scss";
 
-const SignIn = () => {
+const Login = () => {
   return (
     <div className={styles.container}>
       <div className={styles.innerBox}>
@@ -28,4 +28,4 @@ const SignIn = () => {
     </div>
   );
 };
-export default SignIn;
+export default Login;
