@@ -1,14 +1,13 @@
 .container {
   height: 100%;
   min-height: 100vh;
-  background: linear-gradient(to right, rgb(89, 88, 88), rgb(242, 139, 139));
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(38, 38, 38));
   display: flex;
   justify-content: center;
   align-items: center;
-
   .innerBox {
-    min-width: 500px;
-    padding: 1rem 0.5rem;
+    min-width: 400px;
+    padding: 1rem 2rem;
     width: fit-content;
     height: fit-content;
     background-color: #fff;
